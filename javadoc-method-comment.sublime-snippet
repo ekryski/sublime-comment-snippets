@@ -1,0 +1,22 @@
+<snippet>
+  <content>
+    <![CDATA[
+/**
+ * ${1:Short one line description.}
+ *
+ * ${2:Longer description.}
+ * 
+ * ${3:Even more description.}
+ *
+ * ${4:${5:@param}  ${6:variable} ${7:Description}}
+ * ${8:${9:@return} ${10:type} ${11:Description}}
+ * @return Description text text text.
+ */
+${0}
+    ]]>
+  </content>
+  <tabTrigger>jdoc:m</tabTrigger>
+  <description>Javadoc Method Comment</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

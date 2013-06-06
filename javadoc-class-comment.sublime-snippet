@@ -1,0 +1,17 @@
+<snippet>
+  <content>
+    <![CDATA[
+
+/**
+ * ${1:@author}      ${2:Firstname Lastname} ${3:<address @ example.com>}
+ * ${4:@version}     ${5:1.6}
+ * ${6:@since}       ${7:2010-03-31}
+ */
+${0}
+    ]]>
+  </content>
+  <tabTrigger>jdoc:c</tabTrigger>
+  <description>Javadoc Class Comment</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
